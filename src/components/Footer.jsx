@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="fixed bottom-0 w-full">
+        <footer>
             <div className="flex h-full items-center justify-center px-4 py-6 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-lg text-pretty">
                     <p className="font-mono text-sm text-dark">
@@ -48,4 +48,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default Footer

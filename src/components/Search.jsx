@@ -29,7 +29,7 @@ const Search = ({ onSearch, suggestions }) => {
                     </svg>
                 </div>
                 <input
-                    className="peer h-full w-full outline-none text-sm font-mono text-[#041517]"
+                    className="peer h-full w-full outline-none text-base font-mono text-[#041517]"
                     type="text"
                     value={searchTerm}
                     onChange={handleChange}
