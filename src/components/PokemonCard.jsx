@@ -4,7 +4,7 @@ const PokemonCard = ({ pokemon }) => {
     return (
         <div className="bg-primary/50 relative w-full border-2 border-gray-200 rounded-md shadow-md p-4">
             <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-0">
-                <span className="text-opacity-10 text-text font-bold font-mono text-[9rem]">
+                <span className="text-[7rem] lg:text-[9rem] text-opacity-10 text-text font-bold font-mono">
                     #{pokemon.id}
                 </span>
             </div>
